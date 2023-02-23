@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(209, 128, 128);
+}
+
+.block{
+    margin:20px 0 0 20px; 
+    height:56px;
+    width: 5px;
+    background-color: black;
+    transition-duration: 3s ;
+    transition-delay: 2s;
+}
+.block:hover{
+    width: 100%;
+    background-color: aquamarine;
+
+}

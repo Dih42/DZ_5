@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(128, 177, 209);
+}
+.container{
+    margin: 50px;
+}
+.block{
+    border-radius: 50px;
+    height: 300px;
+    width: 100%;
+    animation: color-block  1s infinite alternate 1s;
+}
+@keyframes color-block{
+    0%{
+        background-color: rgb(255, 0, 0);
+    }
+    100%{
+        background-color: black
+    }
+}
+
